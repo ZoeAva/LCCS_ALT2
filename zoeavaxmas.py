@@ -1,0 +1,11 @@
+firstname = input("What is your name? ")
+print("enter user first name")
+print("Hello ", firstname)
+print("enter user surname")
+print("Please select from a list of items.\n")
+print("\tItems Available")
+print("1 Book, 2 ruler,3 pen")
+shoppingItem = int(input("\nEnter the number of items you would like: "))
+if shoppingItem==1:
+  print("you bought a book")
+  print("goodbye")
